@@ -8,3 +8,9 @@ html{
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.footer{
+  padding: 1rem;
+  color: blue;
+  justify-content: center;
+  text-align: center;
+}

@@ -23,6 +23,7 @@ const Login = ({ onLogin }) => {
 
   return (
     <div className="login-container">
+      <h1>IMAGE GALLERY</h1>
       <div className="loginForm">
         <h2 className="login-text">Welcome, Login to continue </h2>
         <form onSubmit={handleSubmit} className="login-form">
