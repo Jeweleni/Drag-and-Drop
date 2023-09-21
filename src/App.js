@@ -2,10 +2,11 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
-import Login from './components/Login';
-import Gallery from './pages/Gallery';
+import Login from './components/login/Login';
+import Gallery from './pages/gallery/Gallery';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import { DndProvider } from 'react-dnd';
+
 
 
 const App = () => {

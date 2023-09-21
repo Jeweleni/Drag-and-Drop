@@ -1,0 +1,104 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 2rem;
+    background-color: rgb(29, 48, 151);
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  .navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    text-decoration: none;
+  }
+  
+  .navlinks a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  .navlinks a:hover {
+    background-color: #fff;
+    color: rgb(34, 48, 181);
+  }
+  
+  /* media queries */
+  @media screen and (max-width: 768px){
+    nav {
+      padding-left: 0 0.5rem;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(29, 48, 151);
+    overflow: hidden;
+    }
+    .navlinks {
+      display: flex;
+      flex-direction: row;
+      gap: 1px;
+    }
+  
+    h1 {
+      font-size: 1rem;
+    }
+  
+    .navlinks a {
+      font-size: 0.8rem;
+      padding: 0 0.5rem;
+    }
+    .navlinks a:hover {
+      background-color: #fff;
+      color: rgb(34, 48, 181);
+    }
+  }
+  
+  @media screen and (max-width: 1024px){
+    nav {
+      padding-left: 0 0.5rem;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(29, 48, 151);
+    overflow: hidden;
+    }
+    .navlinks {
+      display: flex;
+      flex-direction: row;
+      gap: 1px;
+    }
+  
+    h1 {
+      font-size: 1rem;
+    }
+  
+    .navlinks a {
+      font-size: 0.8rem;
+      padding: 0 0.5rem;
+    }
+    .navlinks a:hover {
+      background-color: #fff;
+      color: rgb(34, 48, 181);
+    }
+  }
+  
