@@ -92,7 +92,7 @@ const imageData = [
   {
     id: 12,
     src: Nature2,
-    tags: ['nature', 'portrait']
+    tags: ['nature', 'green']
   },
   {
     id: 13,
