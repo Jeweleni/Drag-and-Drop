@@ -57,6 +57,7 @@ const Login = ({ onLogin }) => {
           </div>
         </form>
       </div>
+      <footer className='footer'>All rights reserved. © EMJCREATES_ 2023</footer>
     </div>
   );
 };

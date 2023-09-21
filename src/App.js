@@ -40,7 +40,7 @@ const App = () => {
       ) : (
         <Login onLogin={setAuthenticated} />
       )}
-      <footer className='footer'>All rights reserved. © EMJCREATES_ 2023</footer>
+     
     </div>
   );
 };

@@ -84,3 +84,10 @@ input[type="password"] {
   text-align: center;
   margin-top: 10px;
 }
+
+.footer{
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+}
