@@ -87,7 +87,7 @@ const imageData = [
   {
     id: 11,
     src: Nature1,
-    tags: ['nature', 'landscape']
+    tags: ['nature', 'green']
   },
   {
     id: 12,
@@ -97,42 +97,42 @@ const imageData = [
   {
     id: 13,
     src: Nature3,
-    tags: ['nature', 'portrait']
+    tags: ['nature', 'green']
   },
   {
     id: 14,
     src: Nature4,
-    tags: ['nature', 'landscape']
+    tags: ['nature', 'green']
   },
   {
     id: 15,
     src: Nature5,
-    tags: ['nature', 'landscape']
+    tags: ['nature', 'green']
   },
   {
     id: 16,
     src: Nature6,
-    tags: ['nature', 'landscape']
+    tags: ['nature', 'green']
   },
   {
     id: 17,
     src: Nature7,
-    tags: ['nature', 'landscape']
+    tags: ['nature', 'green']
   },
   {
     id: 18,
     src: Nature8,
-    tags: ['nature', 'landscape']
+    tags: ['nature', 'green']
   },
   {
     id: 19,
     src: Nature9,
-    tags: ['nature', 'landscape']
+    tags: ['nature', 'green']
   },
   {
     id: 20,
     src: Nature10,
-    tags: ['nature', 'landscape']
+    tags: ['nature', 'green']
   },
 ];
 
@@ -221,6 +221,7 @@ const Gallery = () => {
         value={searchQuery}
         onChange={handleSearch}
       />
+      <h4 className='htag'>Art  Museum  Nature  Green</h4>
       {loading ? (
         <Spinner />
       ) : (
